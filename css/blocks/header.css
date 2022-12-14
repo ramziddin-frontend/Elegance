@@ -1,0 +1,38 @@
+/* HEADER */
+
+.header__row {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__content {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 670px;
+  height: 390px;
+}
+
+.header__title {
+  margin: 0;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 96px;
+  color: #000000;
+}
+
+.header__text p {
+  margin: 0;
+  margin-bottom: 60px;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.header__photo {
+  display: inline-block;
+}

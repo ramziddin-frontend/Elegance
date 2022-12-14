@@ -1,0 +1,58 @@
+/* PRODUCT */
+
+.products-wrapper {
+  margin-bottom: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 40px;
+}
+
+.product {
+  max-width: 270px;
+  text-align: center;
+}
+
+.product-link {
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+
+}
+.product-link:hover {
+  opacity: 0.8;
+}
+
+.product__img {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.product-title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+  color: #000000;
+}
+
+.product-price {
+  text-align: center;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+
+.product__price-old {
+  margin-right: 10px;
+  color: #999999;
+}
+
+.product__price-new {
+  font-weight: 700;
+  color: #F72464;
+}
