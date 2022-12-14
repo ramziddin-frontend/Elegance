@@ -37,3 +37,13 @@ img {
 .section-button-wrapper{
   text-align: center;
 }
+
+.section-features {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.section-new {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}

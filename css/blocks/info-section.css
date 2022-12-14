@@ -6,6 +6,10 @@ background-size: cover;
 background-position: center;
 }
 
+.bg-2 {
+  background: url("./../../img/info-blocks/bg-2.jpg");
+}
+
 .info-section::before {
   content: '';
   position: absolute;
